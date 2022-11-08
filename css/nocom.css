@@ -53,6 +53,17 @@ a#trigram::before {
   top: -.5rem; 
   right: 0; 
 }
+@media screen and (max-width: 990px) {
+  .nav-wrap {
+    display: none;
+  }
+  .nav-wrap.mobile {
+    position: absolute
+  }
+  a#trigram {
+    display: inherit;
+  }
+}
 main {
   padding: 1rem 2rem; 
 }
